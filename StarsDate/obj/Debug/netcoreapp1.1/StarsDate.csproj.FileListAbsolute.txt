@@ -1,0 +1,11 @@
+c:\users\emirhazir\documents\visual studio 2017\Projects\StarsDate\StarsDate\bin\Debug\netcoreapp1.1\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\emirhazir\documents\visual studio 2017\Projects\StarsDate\StarsDate\bin\Debug\netcoreapp1.1\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\emirhazir\documents\visual studio 2017\Projects\StarsDate\StarsDate\bin\Debug\netcoreapp1.1\StarsDate.deps.json
+c:\users\emirhazir\documents\visual studio 2017\Projects\StarsDate\StarsDate\bin\Debug\netcoreapp1.1\StarsDate.runtimeconfig.json
+c:\users\emirhazir\documents\visual studio 2017\Projects\StarsDate\StarsDate\bin\Debug\netcoreapp1.1\StarsDate.runtimeconfig.dev.json
+c:\users\emirhazir\documents\visual studio 2017\Projects\StarsDate\StarsDate\bin\Debug\netcoreapp1.1\StarsDate.dll
+c:\users\emirhazir\documents\visual studio 2017\Projects\StarsDate\StarsDate\obj\Debug\netcoreapp1.1\StarsDate.csprojResolveAssemblyReference.cache
+c:\users\emirhazir\documents\visual studio 2017\Projects\StarsDate\StarsDate\obj\Debug\netcoreapp1.1\StarsDate.AssemblyInfo.cs
+c:\users\emirhazir\documents\visual studio 2017\Projects\StarsDate\StarsDate\bin\Debug\netcoreapp1.1\StarsDate.pdb
+c:\users\emirhazir\documents\visual studio 2017\Projects\StarsDate\StarsDate\obj\Debug\netcoreapp1.1\StarsDate.dll
+c:\users\emirhazir\documents\visual studio 2017\Projects\StarsDate\StarsDate\obj\Debug\netcoreapp1.1\StarsDate.pdb
