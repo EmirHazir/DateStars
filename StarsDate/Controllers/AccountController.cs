@@ -37,7 +37,7 @@ namespace StarsDate.Controllers
         {
             if (ModelState.IsValid)
             {
-                ApplicationUser user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                ApplicationUser user = new ApplicationUser { UserName = model.Email, Email = model.Email,Profile = new Models.Profile() };
                 IdentityResult result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {

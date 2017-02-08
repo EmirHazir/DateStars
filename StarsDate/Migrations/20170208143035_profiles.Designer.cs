@@ -8,9 +8,10 @@ using StarsDate.Models;
 namespace StarsDate.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20170208143035_profiles")]
+    partial class profiles
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.1.0-rtm-22752")
@@ -188,8 +189,6 @@ namespace StarsDate.Migrations
                     b.Property<string>("Description");
 
                     b.Property<string>("DisplayName");
-
-                    b.Property<int>("Gender");
 
                     b.Property<int>("Height");
 

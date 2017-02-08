@@ -1,0 +1,90 @@
+﻿@model StarsDate.Models.Profile
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+
+<form asp-actoin="Edit" enctype="multipart/form-data">
+    <div class="form-horizontal">
+        <h4>Profile</h4>
+        <hr />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="Id" />
+        
+        <div class="form-group">
+            <label asp-for="DisplayName" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="DisplayName" class="form-control" />
+                <span asp-validation-for="DisplayName" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="BirthDate" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input type="date" asp-for="BirthDate" class="form-control" />
+                <span asp-validation-for="BirthDate" class="text-danger"></span>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label asp-for="Height" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Height" class="form-control" />
+                <span asp-validation-for="Height" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="ProfilePicture" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input type="hidden"  asp-for="ProfilePicture"  />
+                <img src="~/uploads/@Model.User.Id/@Model.ProfilePicture" class="profilePicture"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label  class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input type="file" name="ProfilePictureFile" />
+                <span asp-validation-for="ProfilePicture" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Description" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <textarea type="text" asp-for="Description" class="form-control" ></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Smoking" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <select asp-for="Smoking" class="form-control" asp-items="Html.GetEnumSelectList<StarsDate.Models.SmokerType>()" ></select>
+                <span asp-validation-for="Smoking"  class="text-danger"></span>
+            </div>
+        </div>
+        
+
+        <div class="form-group">
+            <label asp-for="Gender" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <select asp-for="Gender" class="form-control" asp-items="Html.GetEnumSelectList<StarsDate.Models.Gender>()"></select>
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+</form>

@@ -24208,10 +24208,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "c:\\users\\emirhazir\\documents\\visual studio 2017\\Projects\\StarsDate\\StarsDate\\StarsDate.csproj",
+      "projectUniqueName": "C:\\Users\\EmirHazir\\Documents\\Visual Studio 2017\\Projects\\StarsDate\\StarsDate\\StarsDate.csproj",
       "projectName": "StarsDate",
-      "projectPath": "c:\\users\\emirhazir\\documents\\visual studio 2017\\Projects\\StarsDate\\StarsDate\\StarsDate.csproj",
-      "outputPath": "c:\\users\\emirhazir\\documents\\visual studio 2017\\Projects\\StarsDate\\StarsDate\\obj\\",
+      "projectPath": "C:\\Users\\EmirHazir\\Documents\\Visual Studio 2017\\Projects\\StarsDate\\StarsDate\\StarsDate.csproj",
+      "outputPath": "C:\\Users\\EmirHazir\\Documents\\Visual Studio 2017\\Projects\\StarsDate\\StarsDate\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
